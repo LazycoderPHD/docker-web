@@ -1,26 +1,44 @@
 ﻿using testing_OOP_bro_code;
 
-class1.Testingcar car1 = new class1.Testingcar();
 
-class1.Testingcar car2 = new class1.Testingcar();
+//RunBasicOOPDemo();
+void RunBasicOOPDemo()
+{
+    // Object = An entity that holds data (attributes)
+    //                and can perform actions (methods)
+    //                It is a reference data type
 
-Console.WriteLine($"{car1.make} {car1.model}");
-Console.WriteLine($"{car2.make} {car2.model}");
+    class1.Testingcar car1 = new class1.Testingcar();
+    class1.Testingcar car2 = new class1.Testingcar();
 
-//car1.isRunning = false;
+    Console.WriteLine($"{car1.make} {car1.model}");
+    Console.WriteLine($"{car2.make} {car2.model}");
 
-//Console.WriteLine(car.make);
-//Console.WriteLine(car.model);
-//Console.WriteLine(car.year);
-//Console.WriteLine(car.price);
-//Console.WriteLine(car.isRunning);
+    car1.isRunning = false;
 
-//Console.WriteLine(car1.isRunning);
+    Console.WriteLine(car1.make);
+    Console.WriteLine(car1.model);
+    Console.WriteLine(car1.year);
+    Console.WriteLine(car1.price);
+    Console.WriteLine(car1.isRunning);
 
-//car1.start();
-//Console.WriteLine(car1.isRunning);
-//car1.stop();
-//Console.WriteLine(car1.isRunning);
+    Console.WriteLine(car1.isRunning);
 
-//car1.drive();
-//car1.brake();
+    car1.start();
+    Console.WriteLine(car1.isRunning);
+    car1.stop();
+    Console.WriteLine(car1.isRunning);
+
+    car1.drive();
+    car1.brake();
+}
+
+void RunConstructorDemo()
+{
+    // constructor = A special method to initialize objects
+    //                         You can pass arguments to a constructor
+    //                         and set up initial values
+
+
+}
+
